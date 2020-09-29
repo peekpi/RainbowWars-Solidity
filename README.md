@@ -1,4 +1,10 @@
-# Rainbow-bridge-wars EthSide
+# RainbowWars Solidity Contract
+
+## Description
+This is the solidity contract for RawinbowWars. The RainbowWars project consists of three parts:
+- ethereum solidity contract
+- near assembly contract
+- vue frontend
 
 ## Requirements
 - NodeJS v8.9.4 or later
@@ -9,6 +15,14 @@
 1. install truffle: `npm install -g truffle`
 2. install ganache-cli: `npm install -g ganache-cli`
 3. install dependencies: `npm install` or `yarn`
+
+## Modify the contract code
+Modify the `contracts/nearprover/RainbowWars.sol`, changing the `bridgeHash` to your NEAR contractID:
+```
+...
+bytes32 constant bridgeHash = keccak256("NearContractID.testnet");
+...
+```
 
 ## Compilation
 ```
