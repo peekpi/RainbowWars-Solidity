@@ -1,10 +1,13 @@
 # RainbowWars Solidity Contract
 
 ## Description
-This is the solidity contract for RawinbowWars. The RainbowWars project consists of three parts:
-- ethereum solidity contract
-- near assembly contract
-- vue frontend
+RainbowWars is a cross-chain game. Here is the [description][describe] and [demo][demo].
+
+This is the solidity contract for RainbowWars.
+The RainbowWars project consists of three parts:
+- [ethereum solidity contract][ethcontract]
+- [near assembly contract][nearcontract]
+- [vue frontend][frontend]
 
 ## Requirements
 - NodeJS v8.9.4 or later
@@ -97,3 +100,9 @@ Summary
 > Total deployments:   2
 > Final cost:          0.06018214 ETH
 ```
+
+[demo]: https://peekpi.github.io/RainbowWars/dist
+[ethcontract]: https://github.com/peekpi/RainbowWars-Solidity
+[nearcontract]: https://github.com/peekpi/RainbowWars-Assembly
+[frontend]: https://github.com/peekpi/RainbowWars-Vue
+[describe]: https://github.com/peekpi/RainbowWars
