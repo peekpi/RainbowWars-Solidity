@@ -1,5 +1,5 @@
-const DemoContract = artifacts.require("Demo");
+const RainbowWars = artifacts.require("RainbowWars");
 
 module.exports = function(deployer) {
-  deployer.deploy(DemoContract, 123);
+  deployer.deploy(RainbowWars);
 };
