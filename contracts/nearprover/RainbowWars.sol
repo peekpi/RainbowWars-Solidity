@@ -90,6 +90,8 @@ contract RainbowWars is NearProver {
         uint256 attackValue = otherDifficult + finalAttackSeed;
         uint256 defenValue = difficult + defenSeed;
         if(attackValue < defenValue){
+            rewardsToken.mint(attackSeed.beneficiary, 1e7);
+        }else{
             rewardsToken.mint(attackSeed.beneficiary, 1e6);
         }
         if(difficult > finalAttackSeed) difficult = finalAttackSeed;
